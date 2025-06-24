@@ -4,7 +4,7 @@ import User from './User'
 import Message from './Message'
 import { useDispatch, useSelector } from 'react-redux';
 import { getMessageThunk } from '../../store/slice/message/message.thunk';
-import SendMessage from './sendMessage';
+import SendMessage from './SendMessage';
 
 const MessageContainer = () => {
     const dispatch = useDispatch();
